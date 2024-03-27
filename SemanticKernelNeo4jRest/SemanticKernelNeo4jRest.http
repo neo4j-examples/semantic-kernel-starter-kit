@@ -1,0 +1,6 @@
+@SemanticKernelNeo4jRest_HostAddress = http://localhost:5177
+
+GET {{SemanticKernelNeo4jRest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

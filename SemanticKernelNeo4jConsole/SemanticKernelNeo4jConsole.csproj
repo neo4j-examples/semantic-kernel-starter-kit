@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="dotenv.net" Version="3.1.3" />
+    <PackageReference Include="Microsoft.KernelMemory.Core" Version="0.35.240321.1" />
+    <PackageReference Include="Neo4j.KernelMemory.MemoryStorage" Version="0.1.0" />
+  </ItemGroup>
+
+</Project>
