@@ -4,8 +4,9 @@ using Neo4j.Driver;
 
 using dotenv.net;
 
-DotEnv.Load();
-var env = DotEnv.Read();
+var env = DotEnv.Fluent()
+    .WithEnvFiles("../.env")
+    .Read();
 
 var neo4jConfig = new Neo4jConfig
 {
